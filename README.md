@@ -1,10 +1,13 @@
 Projetos de Banco de Dados: Sistemas de Imobiliária e Locadora de Veículos
+
 Este repositório contém dois projetos acadêmicos focados em modelagem e manipulação de bancos de dados com SQL, desenvolvidos para a disciplina de Banco de Dados. Ambos os projetos utilizam PostgreSQL e incluem o Modelo Entidade-Relacionamento (MER), o Modelo Relacional (MR), scripts de criação de estrutura (DDL), inserção de dados (DML) e consultas (SQL).
 
 1. Sistema de Gestão Imobiliária
+
 Este projeto foi desenvolvido para informatizar e otimizar os processos de uma imobiliária, gerenciando as operações de vendas e aluguéis de imóveis. 
 
 Funcionalidades e Requisitos
+
 O sistema foi modelado para atender aos seguintes requisitos:
 
 
@@ -27,6 +30,7 @@ Gestão de Aluguéis: Controle de contratos de aluguel, incluindo datas de iníc
 Etapas de Venda: Acompanhamento detalhado de todo o processo de venda, desde a visita até a entrega final do imóvel.
 
 Estrutura do Banco de Dados
+
 O projeto inclui:
 
 Modelo Entidade-Relacionamento (MER): Diagrama que representa as entidades e seus relacionamentos de forma conceitual.
@@ -55,9 +59,11 @@ Identificação de clientes e imóveis com características específicas (ex: cl
 Cálculo de faturamento mensal, separando por aluguel, venda e reparos.
 
 2. Sistema de Locadora de Veículos
+
 Este é um sistema simplificado para gerenciar o processo de locação de carros, registrando clientes, veículos e as transações de aluguel.
 
 Funcionalidades
+
 O sistema permite realizar as seguintes operações básicas:
 
 Cadastros: Manter um registro de clientes e dos carros disponíveis na frota.
@@ -67,6 +73,7 @@ Controle de Locações: Registrar as operações de aluguel, associando um clien
 Cálculo de Quilometragem: Calcular os quilômetros rodados em cada locação a partir da diferença entre o km inicial e final.
 
 Estrutura do Banco de Dados
+
 O projeto inclui:
 
 Modelo Entidade-Relacionamento (MER): Diagrama conceitual com as entidades Cliente, Carro e Locacao.
@@ -89,6 +96,7 @@ Contar o total de carros da locadora.
 Verificar o número de vezes que cada carro foi alugado.
 
 Como Utilizar
+
 Pré-requisitos: É necessário ter o PostgreSQL instalado.
 
 Criação do Banco: Execute primeiro o script DDL de cada projeto para criar a estrutura do banco.
